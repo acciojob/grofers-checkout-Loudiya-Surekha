@@ -12,7 +12,7 @@ const getSum = () => {
 	});
      let totalrow= document.createElement("tr");
 	let totalcell= document.createElement("td");
-	totalcell.setAttribute("colspan","2"); 
+	totalcell.setAttribute("id", "ans"); 
 	totalcell.style.fontWeight="bold";
 	totalcell.textContent = `Total Price: Rs ${sum}`;
 	totalrow.appendChild(totalcell);
